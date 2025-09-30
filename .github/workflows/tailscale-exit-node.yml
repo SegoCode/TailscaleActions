@@ -28,9 +28,6 @@ jobs:
           authkey: ${{ secrets.TAILSCALE_AUTHKEY }}
           args: "--advertise-exit-node --hostname us-azure-node"
 
-      - name: Show Tailscale Status
-        run: tailscale status
-
       - name: Keep Runner Alive
         run: |
           echo 
