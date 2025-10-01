@@ -1,4 +1,4 @@
-Configurar un **GitHub Actions runner como un exit node de Tailscale** de forma automática, sin aprobación manual.
+Configurar un **GitHub Actions runner como un exit node de Tailscale**
 
 ---
 
