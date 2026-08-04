@@ -1,19 +1,11 @@
 # TailscaleActions
 
-<p align="center">
-  <a href="#about">About</a> •
-  <a href="#features">Features</a> •
-  <a href="#quick-start--information">Quick Start & Information</a> •
-  <a href="#download">Download</a>
-</p>
-
-## About
 [![Top language](https://img.shields.io/github/languages/top/SegoCode/TailscaleActions?style=flat-square)](https://github.com/SegoCode/TailscaleActions)
 [![Repository size](https://img.shields.io/github/repo-size/SegoCode/TailscaleActions?style=flat-square&label=repo%20size)](https://github.com/SegoCode/TailscaleActions)
 [![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/TailscaleActions?style=flat-square&label=commits)](https://github.com/SegoCode/TailscaleActions/graphs/commit-activity)
 [![Commits since tagged version](https://img.shields.io/github/commits-since/SegoCode/TailscaleActions/latest?style=flat-square&label=commits%20since%20tag)](https://github.com/SegoCode/TailscaleActions/releases)
 [![GitHub downloads](https://img.shields.io/github/downloads/SegoCode/TailscaleActions/total?style=flat-square&label=downloads)](https://github.com/SegoCode/TailscaleActions/releases)
-[![Source Available Noncommercial License](https://img.shields.io/badge/license-Source%20Available%20Noncommercial-blue?style=flat-square)](https://github.com/SegoCode/TailscaleActions/blob/main/LICENSE)
+[![License: MIT License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
 Configura un runner de GitHub Actions como exit node de [Tailscale](https://tailscale.com/). La workflow crea una máquina temporal en la red tailnet, anuncia el runner como exit node y lo mantiene activo durante la ejecución.
