@@ -59,24 +59,10 @@ The `tagOwners` entry lets administrators assign `tag:exitnode`. The `autoApprov
 ### 3. Start the exit node
 
 1. Open the repository's [**Actions**](https://github.com/SegoCode/TailscaleActions/actions) tab.
-2. Select **Tailscale exit node**.
-3. Click **Run workflow**.
-4. Wait for the workflow to finish configuring the runner.
-5. Select the exit node in Tailscale from the device that should route traffic through it.
+2. Select **Tailscale exit node** and **run the workflow**.
+3. Select the exit node in Tailscale from the device that should route traffic through it.
 
 The workflow keeps the runner active for approximately six hours. The ephemeral runner becomes unavailable when the job ends.
-
-### Available Parameters
-
-The workflow does not require parameters. It uses the `TAILSCALE_AUTHKEY` secret and sets the hostname to `us-azure-node` through the Tailscale arguments.
-
-```yaml
-args: "--advertise-exit-node --hostname us-azure-node"
-```
-
-## Download
-
-View the [`tailscale-exit-node.yml`](https://github.com/SegoCode/TailscaleActions/blob/main/.github/workflows/tailscale-exit-node.yml) workflow or download a version from [Releases](https://github.com/SegoCode/TailscaleActions/releases).
 
 ---
 <p align="center"><a href="https://github.com/SegoCode/TailscaleActions/graphs/contributors">
