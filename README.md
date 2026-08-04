@@ -3,8 +3,6 @@
 [![Top language](https://img.shields.io/github/languages/top/SegoCode/TailscaleActions?style=flat-square)](https://github.com/SegoCode/TailscaleActions)
 [![Repository size](https://img.shields.io/github/repo-size/SegoCode/TailscaleActions?style=flat-square&label=repo%20size)](https://github.com/SegoCode/TailscaleActions)
 [![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/TailscaleActions?style=flat-square&label=commits)](https://github.com/SegoCode/TailscaleActions/graphs/commit-activity)
-[![Commits since tagged version](https://img.shields.io/github/commits-since/SegoCode/TailscaleActions/latest?style=flat-square&label=commits%20since%20tag)](https://github.com/SegoCode/TailscaleActions/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/SegoCode/TailscaleActions/total?style=flat-square&label=downloads)](https://github.com/SegoCode/TailscaleActions/releases)
 [![License: MIT License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
