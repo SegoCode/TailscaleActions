@@ -18,9 +18,6 @@ Configure a GitHub Actions runner as a [Tailscale](https://tailscale.com/) exit 
 
 ## Quick Start & Information
 
-> [!WARNING]
-> An exit node routes traffic from any device that selects it. Review your Tailscale configuration, protect the auth key and use this project only in a tailnet you administer.
-
 > [!CAUTION]
 > Running this action on a GitHub-hosted runner may violate GitHub's Acceptable Use Policies or other service terms. The workflow uses GitHub infrastructure as a VPN or proxy, forwards traffic for other devices and keeps the hosted runner active for several hours. GitHub may stop the job, restrict the repository or suspend the account. Review the current [GitHub Actions Terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-services#github-actions) and [Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) before using it.
 
