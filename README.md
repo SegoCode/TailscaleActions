@@ -1,4 +1,4 @@
-# {reponame}
+# TailscaleActions
 
 <p align="center">
   <a href="#about">About</a> •
@@ -8,12 +8,12 @@
 </p>
 
 ## About
-[![Top language](https://img.shields.io/github/languages/top/{username}/{reponame}?style=flat-square)](https://github.com/{username}/{reponame})
-[![Repository size](https://img.shields.io/github/repo-size/{username}/{reponame}?style=flat-square&label=repo%20size)](https://github.com/{username}/{reponame})
-[![Commit activity per year](https://img.shields.io/github/commit-activity/y/{username}/{reponame}?style=flat-square&label=commits)](https://github.com/{username}/{reponame}/graphs/commit-activity)
-[![Commits since tagged version](https://img.shields.io/github/commits-since/{username}/{reponame}/latest?style=flat-square&label=commits%20since%20tag)](https://github.com/{username}/{reponame}/releases)
-[![GitHub downloads](https://img.shields.io/github/downloads/{username}/{reponame}/total?style=flat-square&label=downloads)](https://github.com/{username}/{reponame}/releases)
-[![Source Available Noncommercial License](https://img.shields.io/badge/license-Source%20Available%20Noncommercial-blue?style=flat-square)](https://github.com/{username}/{reponame}/blob/main/LICENSE)
+[![Top language](https://img.shields.io/github/languages/top/SegoCode/TailscaleActions?style=flat-square)](https://github.com/SegoCode/TailscaleActions)
+[![Repository size](https://img.shields.io/github/repo-size/SegoCode/TailscaleActions?style=flat-square&label=repo%20size)](https://github.com/SegoCode/TailscaleActions)
+[![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/TailscaleActions?style=flat-square&label=commits)](https://github.com/SegoCode/TailscaleActions/graphs/commit-activity)
+[![Commits since tagged version](https://img.shields.io/github/commits-since/SegoCode/TailscaleActions/latest?style=flat-square&label=commits%20since%20tag)](https://github.com/SegoCode/TailscaleActions/releases)
+[![GitHub downloads](https://img.shields.io/github/downloads/SegoCode/TailscaleActions/total?style=flat-square&label=downloads)](https://github.com/SegoCode/TailscaleActions/releases)
+[![Source Available Noncommercial License](https://img.shields.io/badge/license-Source%20Available%20Noncommercial-blue?style=flat-square)](https://github.com/SegoCode/TailscaleActions/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
 Configura un runner de GitHub Actions como exit node de [Tailscale](https://tailscale.com/). La workflow crea una máquina temporal en la red tailnet, anuncia el runner como exit node y lo mantiene activo durante la ejecución.
@@ -68,7 +68,7 @@ La entrada `tagOwners` permite que los administradores asignen `tag:exitnode`. L
 
 ### 3. Iniciar el exit node
 
-1. Abre la pestaña [**Actions**](https://github.com/{username}/{reponame}/actions) del repositorio.
+1. Abre la pestaña [**Actions**](https://github.com/SegoCode/TailscaleActions/actions) del repositorio.
 2. Selecciona **Tailscale exit node**.
 3. Haz clic en **Run workflow**.
 4. Espera a que la ejecución complete la configuración del runner.
@@ -86,9 +86,9 @@ args: "--advertise-exit-node --hostname us-azure-node"
 
 ## Download
 
-Consulta la workflow [`tailscale-exit-node.yml`](https://github.com/{username}/{reponame}/blob/main/.github/workflows/tailscale-exit-node.yml) o descarga una versión desde [Releases](https://github.com/{username}/{reponame}/releases).
+Consulta la workflow [`tailscale-exit-node.yml`](https://github.com/SegoCode/TailscaleActions/blob/main/.github/workflows/tailscale-exit-node.yml) o descarga una versión desde [Releases](https://github.com/SegoCode/TailscaleActions/releases).
 
 ---
-<p align="center"><a href="https://github.com/{username}/{reponame}/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo={username}/{reponame}" />
+<p align="center"><a href="https://github.com/SegoCode/TailscaleActions/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SegoCode/TailscaleActions" />
 </a></p>
