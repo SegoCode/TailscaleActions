@@ -8,14 +8,6 @@
 
 Configure a GitHub Actions runner as a [Tailscale](https://tailscale.com/) exit node. The workflow creates a temporary machine in your tailnet, advertises the runner as an exit node and keeps it active during the job.
 
-## Features
-
-- Enables the IPv4 and IPv6 forwarding required by an exit node.
-- Optimizes UDP forwarding with UDP GRO.
-- Advertises the runner as an exit node using an auth key stored in GitHub Secrets.
-- Keeps the runner active for approximately six hours.
-- Uses a manual workflow so you can start the exit node only when needed.
-
 ## Quick Start & Information
 
 > [!CAUTION]
