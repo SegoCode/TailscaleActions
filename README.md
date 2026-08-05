@@ -3,7 +3,7 @@
 [![Top language](https://img.shields.io/github/languages/top/SegoCode/TailscaleActions?style=flat-square)](https://github.com/SegoCode/TailscaleActions)
 [![Repository size](https://img.shields.io/github/repo-size/SegoCode/TailscaleActions?style=flat-square&label=repo%20size)](https://github.com/SegoCode/TailscaleActions)
 [![Commit activity per year](https://img.shields.io/github/commit-activity/y/SegoCode/TailscaleActions?style=flat-square&label=commits)](https://github.com/SegoCode/TailscaleActions/graphs/commit-activity)
-[![License: MIT License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/SegoCode/AtlasReg/blob/main/LICENSE)
+[![License: MIT License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](https://github.com/SegoCode/TailscaleActions/blob/main/LICENSE)
 [![Bitcoin BTC](https://img.shields.io/badge/buy_me_a_coffee-BTC-F7931A?style=flat-square&logo=bitcoin&logoColor=white)](https://github.com/SegoCode/SegoCode/discussions/2)
 
 Configure a GitHub Actions runner as a [Tailscale](https://tailscale.com/) exit node. The workflow creates a temporary machine in your tailnet, advertises the runner as an exit node and keeps it active during the job.
