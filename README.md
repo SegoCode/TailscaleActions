@@ -13,6 +13,9 @@ Configure a GitHub Actions runner as a [Tailscale](https://tailscale.com/) exit 
 > [!CAUTION]
 > Running this action on a GitHub-hosted runner may violate GitHub's Acceptable Use Policies or other service terms. The workflow uses GitHub infrastructure as a VPN or proxy, forwards traffic for other devices and keeps the hosted runner active for several hours. GitHub may stop the job, restrict the repository or suspend the account. Review the current [GitHub Actions Terms](https://docs.github.com/en/site-policy/github-terms/github-terms-for-additional-products-and-services#github-actions) and [Acceptable Use Policies](https://docs.github.com/en/site-policy/acceptable-use-policies/github-acceptable-use-policies) before using it.
 
+> [!NOTE]
+> `tailscale/github-action@v4` still accepts `authkey`, but Tailscale recommends OAuth clients (`oauth-client-id`, `oauth-secret` and `tags`) for new setups.
+
 ### 1. Create an Auth Key with permissions for `tag:exitnode`
 
 1. Open the [Tailscale admin console](https://login.tailscale.com/admin/settings/keys).
